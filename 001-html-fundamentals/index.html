@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onlayn Shop</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- CSS styles -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="div-header container">
+            <img class="img-main-left" src="img/iphones-pictures.jpg" alt="ayfonlar rasmi" width="346" height="90">
+            <h2 class="main-header">Hurmo qo'ldan</h2>
+            <p class="main-link"><a href="#">Ustiga bosing</a></p>
+            <img src="img/samsung.jpg" alt="samsunglar rasmi" width="346" height="90">
+        </div>
+        <nav class="navigate container">
+            <ul>
+                <li class="nav-link-white"><a href="#">Muddatli to'lov</a></li>
+                <li class="nav-link-red"><a href="#">Chegirmalar</a></li>
+                <li class="nav-link-white "><a href="#">Yutuqli oyinlar</a></li>
+                <li class="nav-div"><a href="#">Sayt haritasi</a></li>
+                <li class="nav-link-form"><form action="#"><select name="Mintaqani tanlang" id="region-type-select">
+                    <option disabled selected hidden>Mintaqani tanlang</option>
+                    <option value="Toshkent">Toshkent</option>
+                    <option value="Toshkent region">Toshkent viloyati</option>
+                    <option value="Andijon region">Andijon viloyati</option>
+                    <option value="Buxoro region">Buxoro viloyati</option>
+                    <option value="Jizzax region">Jizzax viloyati</option>
+                    <option value="Qashqadaryo region">Qashqadaryo viloyati</option>
+                    <option value="Navoiy region">Navoiy viloyati</option>
+                    <option value="Namangan region">Namangan viloyati</option>
+                    <option value="Samarqand region">Samarqand viloyati</option>
+                    <option value="Surxandaryo region">Surxandaryo viloyati</option>
+                    <option value="Sirdaryo region">Sirdaryo viloyati</option>
+                    <option value="Farg'ona region">Farg'ona viloyati</option>
+                    <option value="Xorazm region">Xorazm viloyati</option>
+                    <option value="Qoraqalpog'iston region">Qoraqalpog'iston viloyat</option>
+                </select></form></li>
+                <li class="nav-link"><a href="tel:+998901370571">+998(90)1370571</a></li>
+                <li class="nav-link-red"><a href="#">hurmo da soting </a></li>
+                <li><div class="nav-div">
+                    <p>Ўзб</p>
+                    <p>O'z</p>
+                    <p>Рус</p>
+                </div></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- MAIN-NAVIGATION-SECTION -->
+        <section class="main-nav-section container">
+            <a class="main-logo-link" href="index.html"><img src="img/logo-red.png" alt="site-logo-red" width="102" height="30"></a>
+            <button class="main-nav-section-button">
+                <span class="main-nav-section-rule">
+                    <span class="main-nav-section-catalog-rule"></span>
+                    <span class="main-nav-section-catalog-rule"></span>
+                    <span class="main-nav-section-catalog-rule"></span>
+                </span>
+                Katalog
+            </button>
+            <form class="search-form" action="https://htmlacademy.ru" method="get">
+                <input class="form-input" type="search" name="product-name" id="catalog-name-input" placeholder="Katalog bo'yicha qidirish" required>
+                <button class="search-icon-button" type="submit"><img src="img/search.svg" alt="search-icon" width="24" height="24"></button>
+            </form>
+            <a class="main-nav-section-links" href="#"><img src="img/stats.svg" alt="link-icons" width="24" height="24"><span>Taqqoslash</span></a>
+            <a class="main-nav-section-links" href="#"><img src="img/heart.svg" alt="link-icons" width="24" height="24"><span>Sevimlilar</span></a>
+            <a class="main-nav-section-links" href="#"><img src="img/shopping-cart.svg" alt="link-icons" width="24" height="24"><span>Savatcha</span></a>
+            <a class="main-nav-section-links" href="#"><img src="img/user.svg" alt="link-icons" width="24" height="24"><span>Kirish</span></a>
+        </section>
+        <!-- MAIN-CATALOG-SECTION -->
+        <section class="main-catalog container">
+            <div class="main-catalog-div-text">
+                <h2 class="main-catalog-title">Hurmo Qo'ldan</h2>
+                <p class="main-catalog-text"><a class="main-catalog-text-link" href="#">Telefonlar</a></p>
+                <p class="main-catalog-text"><a class="main-catalog-text-link" href="#">Qo'ldan noutbuklar</a></p>
+                <p class="main-catalog-text"><a class="main-catalog-text-link" href="#">Garderob</a></p>
+            </div>
+
+            <ul class="main-catalog-img">
+                <li class="main-catalog-img-list">
+                    <a class="main-catalog-img-link" href="#"><img class="main-catalog-photo" src="img/telefonlar.png" alt="catalog-img"></a>
+                    <a href="#" class="main-catalog-img-list-link main-catalog-text-link">Telefonlar</a>
+                </li>
+                <li class="main-catalog-img-list">
+                    <a class="main-catalog-img-link" href="#"><img class="main-catalog-photo" src="img/noutbuklar.png" alt="catalog-img"></a>
+                    <a href="#" class="main-catalog-img-list-link main-catalog-text-link">Qo'ldan noutbuklar</a>
+                </li>
+                <li class="main-catalog-img-list">
+                    <a class="main-catalog-img-link" href="#"><img class="main-catalog-photo" src="img/garderob.png" alt="catalog-img"></a>
+                    <a href="#" class="main-catalog-img-list-link main-catalog-text-link">Garderob</a>
+                </li>
+            </ul>
+        </section>
+        <!--Ommabop-tovarlar-->
+        <div class="main-catalog-"><h2>Ommabop tovarlar</h2>
+            <ul>
+                <a href="#"><img src="img/iphone-11pro.jpg" alt="Ayfon 11 pro" width="210" height="225"></a>
+                <li><a href="#">Ayfon 11 pro</a></li>
+                <li>300$</li>
+            </ul>
+            <ul>
+                <a href="#"><img src="img/apple-iphone-14-pro.jpeg" alt="Ayfon 14 pro" width="220" height="220"></a>
+                <li><a href="#">Ayfon 14 pro</a></li>
+                <li>900$</li>
+            </ul>
+        </div>
+        <div class="main-catalog-div">
+            <h2>Telefonlar</h2>
+            <ul>
+                <a href="#"><img src="img/samsung-galaxy-A34.jpg" alt="Samsung Galaxy A34 rasimi" width="220" height="220"></a>
+                <li><a href="#">Samsung Galaxy A34</a></li>
+                <li>200$</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Qo'ldan noutbuklar</h2>
+            <ul>
+                <a href="#"><img src="img/noutbuk-honor-magicbook.jpeg" alt="Noutbuk Honor MagikBook rasimi" width="220" height="220"></a>
+                <li><a href="#">Noutbuk Honor MagikBook</a></li>
+                <li>750$</li>
+            </ul>
+        </div>
+    </main>
+    <footer class="container">
+        <section class="footer-social-media">
+            <div class="footer-socials-links">
+                <h2 class="footer-socials-header">Bizning mobil ilovamiz AppGallery, App store va Google play-da</h2>
+                <div class="social-media-goto">
+                    <a class="get-on-links" href="#"><img class="footer-social-img" src="img/app-store-link.svg" alt="for-iphones" width="170" height="48"></a>
+                    <a class="get-on-links" href="#"><img class="footer-social-img" src="img/play-market-link.svg" alt="for-android" width="170" height="48"></a>
+                    <a class="get-on-links" href="#"><img class="footer-social-img" src="img/app-gallery.svg" alt="for-huawei" width="170" height="48"></a>
+                </div>
+            </div>
+            <img src="img/phones-bckg.webp" alt="" width="468" height="264">
+        </section>
+
+        <section class="footer-market">
+
+
+            <div class="footer-market-info">
+                <a class="main-logo-link" href="index.html"><img src="img/logo-red.png" alt="site-logo-red" width="102" height="30"></a>
+                <p class="footer-market-info-text">Qo'llab-quvvatlash raqami</p>
+                <a class="footer-market-info-tel" href="tel:+998901370571">+998 (90) 1370571</a>
+                <p class="footer-market-info-text"><img class="location-mail-icon" src="img/icon-location.svg" alt="" width="20" height="20">Komolon, Toshkent</p>
+                <a class="footer-market-info-text-link"><img class="location-mail-icon" src="img/envelope.svg" alt="" width="20" height="20">sodiqovxasan99@mail.ru</a>
+            </div>
+
+            <div class="footer-market-info">
+                <h3 class="footer-market-info-title">Ma`lumot</h3>
+                <a href="" class="footer-market-info-links">Biz haqimizda</a>
+                <a href="" class="footer-market-info-links">Bo'sh ish o'rinlari</a>
+                <a href="" class="footer-market-info-links">To'lovni qaytarish va tovarlarni almashtirish</a>
+                <a href="" class="footer-market-info-links">Muddatli to'lov shartlari</a>
+                <a href="" class="footer-market-info-links">Yordam</a>
+                <a href="" class="footer-market-info-links">Yetqazib berish</a>
+            </div>
+
+            <div class="footer-market-info">
+                <a href="" class="footer-market-info-links">ECO-friendly</a>
+                <a href="" class="footer-market-info-links">Bonus va aksiyalar</a>
+                <a href="" class="footer-market-info-links">To'lov va yetkazib berish</a>
+                <button class="nav-link-button footer-market-info-button" type="button"><span><a class="header-nav-list-link" href="#">hurmo da soting</a></span></button>
+                <a href="" class="footer-market-info-links">Servis xizmatlari</a>
+            </div>
+            <div class="footer-payment-methods">
+                <a class="payment-links" href="https://apelsin.uz">Apelsin</a>
+                <a class="payment-links" href="https://plum.uz">Plum</a>
+                <a class="payment-links" href="https://click.uz">CLICK</a>
+                <a class="payment-links" href="https://payme.uz">PAY me</a>
+                <a class="payment-links" href="https://humo.uz">HUMO</a>
+                <a class="payment-links" href="https://paynet.uz">PAYNET</a>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
